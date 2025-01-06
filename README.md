@@ -1,58 +1,54 @@
-# Trabalho_FastHelp
-O projeto permite que administradores cadastrem novos usuários, realizem o login com autenticação segura, e recuperem senhas caso necessário. Além disso, o sistema oferece uma interface para consultar e gerenciar informações sobre vendedores e o desempenho de vendas. A aplicação tem como foco a simplicidade e eficiência no gerenciamento de dados.
+# Plataforma de Gestão de Vendas
 
-Tecnologias Utilizadas
+## Descrição do Projeto
 
-Frontend: HTML, CSS, JavaScript
+Este projeto foi desenvolvido para a **FastHelp**, que atua no setor de vendas. A empresa enfrenta desafios significativos, como a falta de comunicação e uma gestão ineficiente, que impactam diretamente seu desempenho e rentabilidade. A solução proposta é uma **Plataforma de Gestão de Vendas** que oferece um dashboard intuitivo, permitindo que os usuários visualizem gráficos e relatórios de vendas por período, identifiquem os produtos mais vendidos e conheçam seus clientes frequentes.
 
-Instalação
+## Funcionalidades
 
-Siga os passos abaixo para rodar o projeto localmente:
+- **Dashboard Interativo**: Visualização clara e concisa dos dados de vendas.
+- **Relatórios de Vendas**: Geração de relatórios por período, permitindo análises detalhadas.
+- **Produtos Mais Vendidos**: Identificação dos produtos que mais geram receita.
+- **Clientes Frequentes**: Listagem dos clientes que mais compram, facilitando estratégias de fidelização.
 
-### 1. Clone o repositório
+## Stack de Desenvolvimento
 
-```bash
-git clone https://github.com/KurejiV/Projeto-Fast-Manager.git
+- **Frameworks**: Bootstrap
+- **IDE**: Visual Studio Code
+- **Linguagens**: HTML, CSS, JavaScript
 
-###2. Acesse o diretório do projeto
-bash
-Copiar código
-cd Projeto-Fast-Manager
+## Visualização Online
 
-3. Instale as dependências do backend
-bash
-Copiar código
-cd backend
-npm install
+Você pode acessar a versão online do projeto através do GitHub Pages: [Plataforma de Gestão de Vendas](https://matheusmirandadev.github.io/Trabalho_FastHelp/)
 
-4. Instale as dependências do frontend
-bash
-Copiar código
-cd frontend
-npm install
+## Como Executar o Projeto
 
-6. Inicie o servidor backend
-bash
-Copiar código
-cd backend
-npm start
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    ```
 
-7. Inicie o servidor frontend
-bash
-Copiar código
-cd frontend
-npm start
+2. **Navegue até o diretório do projeto**:
+    ```bash
+    cd nome-do-repositorio
+    ```
 
-Como Usar
-Cadastro de Usuários: Os administradores podem cadastrar novos usuários através de um formulário simples. Após o cadastro, o usuário receberá um e-mail com a confirmação.
-Login: Realize o login utilizando o e-mail e a senha cadastrados.
-Recuperação de Senha: Caso o usuário esqueça a senha, é possível recuperar a senha através de um link enviado por e-mail.
-Gestão de Vendedores e Vendas: Os administradores podem adicionar, editar ou remover vendedores e registrar vendas realizadas por cada um. Também é possível visualizar relatórios sobre o desempenho dos vendedores e o total de vendas.
-Funcionalidades
-Cadastro de Usuários: Sistema de cadastro para novos usuários.
-Recuperação de Senha: Recurso para recuperação de senha via e-mail.
-Gerenciamento de Vendedores: Adicionar, editar e remover vendedores.
-Relatórios de Vendas: Visualizar dados detalhados sobre as vendas realizadas por cada vendedor.
-Dashboard Administrativo: Interface para consultar o desempenho dos vendedores e o total de vendas.
-Licença
-Distribuído sob a licença Católica.
+3. **Abra o projeto no Visual Studio Code**:
+    ```bash
+    code .
+    ```
+Abra o arquivo index.html em um navegador para visualizar a plataforma.
+
+## Upgrades Futuros
+Estamos sempre buscando melhorar a Plataforma de Gestão de Vendas. Algumas das melhorias planejadas incluem:
+
+- Criação e Integração de um Banco de Dados: Para armazenar e gerenciar dados de vendas, produtos e clientes de forma mais eficiente.
+- Melhorias na Parte de Ajuda: Tornar a seção de ajuda mais funcional e acessível.
+- Alteração de Idioma do Sistema: Implementar a funcionalidade para que os usuários possam alterar o idioma da interface.
+- Alteração de Tema: Permitir que os usuários escolham entre diferentes temas para personalizar a aparência da plataforma.
+
+## Licença
+Distribuído sob a licença da Universidade Católica de Brasília.
+
+## Contato
+Para mais informações, entre em contato com matheusmiranda.batista@gmail.com
