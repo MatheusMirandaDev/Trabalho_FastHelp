@@ -66,8 +66,7 @@ Estamos trabalhando continuamente para melhorar a **Plataforma de Gestão de Ven
    Oferecer diferentes temas visuais para maior flexibilidade e personalização.
 
 ## Licença
-Distribuído sob a licença da Universidade Católica de Brasília.  
-Consulte o arquivo `LICENSE` para mais detalhes.
+Distribuído sob a licença da Universidade Católica de Brasília. 
 
 ## Contato
 📧 Email: [matheusmiranda.batista@gmail.com](mailto:matheusmiranda.batista@gmail.com)  
