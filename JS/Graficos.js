@@ -5,7 +5,7 @@ let logado = document.querySelector('#logado')
 if (usarLogado) {
     logado.innerHTML = usarLogado.nome;
 } else {
-    logado.innerHTML = "Olá!";
+    logado.innerHTML = "Recrutador";
 }
 
 if (localStorage.getItem('token') == null) {

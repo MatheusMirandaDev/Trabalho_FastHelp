@@ -23,7 +23,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-right: 1px solid #ff0000;
     position: relative;
     overflow-y: auto; /* Permite rolagem vertical */
     max-height: 100vh; /* Limita a altura ao tamanho da janela */

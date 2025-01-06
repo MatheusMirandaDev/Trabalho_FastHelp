@@ -11,6 +11,7 @@ html, body {
 }
 
 .container {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,9 +20,9 @@ html, body {
 
 
 .second-column {
-    height: 100vh;
+    height: 116vh;
     gap: 15px;
-    flex-grow: 1;
+    flex-grow: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,15 +36,13 @@ html, body {
 
 .first-column {
     flex-grow: 0.3;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 72px;
-    
+    padding: 50px;
     img {
-        width: 200px;
+        width: 140px;
     }
     
     h2 {
@@ -62,7 +61,8 @@ html, body {
         a {
             font-size: 14px;
             text-align: right;
-            padding-bottom: 60px;
+            margin-left: 300px;
+            padding-bottom: 30px;
             color: #5600BE;
             cursor: pointer;
         }
@@ -80,7 +80,7 @@ html, body {
     }
     .btn-wrapper {
         display: flex;
-        flex-direction: column;
+        flex-direction: column;  
         align-items: center;
         justify-content: center;
         

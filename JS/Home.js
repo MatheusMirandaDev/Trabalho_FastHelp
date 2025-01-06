@@ -1,3 +1,18 @@
+let usarLogado = JSON.parse(localStorage.getItem('userLogado'))
+
+let logado = document.querySelector('#logado')
+
+if (usarLogado) {
+    logado.innerHTML = "Olá " + usarLogado.nome + "!";
+} else {
+    logado.innerHTML = "Olá Recrutador!";
+}
+
+if (localStorage.getItem('token') == null) {
+    alert('Voce percisar estar logado para acessar essa pagina');
+    window.location.href = "index.html";
+}
+
 // Gráfico 1
 new Chart(document.getElementById('graficoBarras'), {
     type: 'bar',
@@ -60,7 +75,6 @@ new Chart(document.getElementById('graficoBarras2'), {
     }
 });
 
-
 new Chart(document.getElementById('graficoLinhas'), {
     type: 'line',
     data: {
@@ -112,8 +126,6 @@ new Chart(document.getElementById('graficoLinhas'), {
     }
 });
 
-
-
 const ctxPizza = document.getElementById('graficoPizza').getContext('2d');
 const graficoPizza = new Chart(ctxPizza, {
     type: 'pie',
@@ -147,30 +159,13 @@ const graficoPizza = new Chart(ctxPizza, {
     }
 });
 
-
-    JsBarcode("#codigoDeBarras", "123456789012", {
-        format: "EAN13",
-        lineColor: "black",
-        width: 7,
-        height: 60,
-        displayValue: true
-        });
-
-
-let usarLogado = JSON.parse(localStorage.getItem('userLogado'))
-
-let logado = document.querySelector('#logado')
-
-if (usarLogado) {
-    logado.innerHTML = "Olá " + usarLogado.nome + "!";
-} else {
-    logado.innerHTML = "Olá!";
-}
-
-if (localStorage.getItem('token') == null) {
-    alert('Voce percisar estar logado para acessar essa pagina');
-    window.location.href = "index.html";
-}
+JsBarcode("#codigoDeBarras", "123456789012", {
+    format: "EAN13",
+    lineColor: "black",
+    width: 7,
+    height: 60,
+    displayValue: true
+});
 
 function home() {
     window.location.href = "Home.html";

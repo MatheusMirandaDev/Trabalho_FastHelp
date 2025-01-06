@@ -1,15 +1,15 @@
 const eyeCloseIcon = document.querySelector('.icon-eye-close');
 const eyeOpenIcon = document.querySelector('.icon-eye-open');
-const inputSenha = document.querySelector('#password');
+const input_senha = document.querySelector('#password');
 
 eyeCloseIcon.addEventListener('click', () => {
-  inputSenha.setAttribute('type', 'text');
+  input_senha.setAttribute('type', 'text');
   eyeCloseIcon.style.display = 'none';
   eyeOpenIcon.style.display = 'block';
 });
 
 eyeOpenIcon.addEventListener('click', () => {
-  inputSenha.setAttribute('type', 'password');
+  input_senha.setAttribute('type', 'password');
   eyeOpenIcon.style.display = 'none';
   eyeCloseIcon.style.display = 'block';
 });
@@ -93,7 +93,12 @@ function logar() {
   }
 }
 
-
 function criar_conta() {
   window.location.href = "TelaCadastroFastManager.html";
+}
+
+function recrutador() {
+  let token = gerarToken();
+  localStorage.setItem('token', token);
+  window.location.href = "Home.html";
 }
